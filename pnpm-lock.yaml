@@ -46,6 +46,9 @@ importers:
       '@types/node':
         specifier: 20.14.11
         version: 20.14.11
+      mock-lib:
+        specifier: workspace:*
+        version: link:../mock-lib
       typescript:
         specifier: 5.4.5
         version: 5.4.5
