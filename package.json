@@ -1,0 +1,14 @@
+{
+	"name": "tw-oxide-repro",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"scripts": {
+		"dev": "pnpm --filter user-project dev",
+		"build": "pnpm --filter mock-lib build && pnpm --filter user-project build",
+		"preview": "pnpm --filter mock-lib build && pnpm --filter user-project preview"
+	}
+}
